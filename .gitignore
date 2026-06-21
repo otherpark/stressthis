@@ -1,0 +1,15 @@
+# Local Claude Code settings (per-machine permission allowlists, not shared)
+.claude/settings.local.json
+
+# Scratch space / tool installs / crash artifacts a bug-hunt may drop locally
+.stressthis/
+corpus/
+crashes/
+*.sarif
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
